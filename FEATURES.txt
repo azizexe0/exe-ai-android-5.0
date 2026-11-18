@@ -1,0 +1,26 @@
+EXE AI 5.0 - 4.0 tabanindan guncellenmistir
+
+KORUNAN 4.0 OZELLIKLERI
+- Yazili sohbet, Android sesli giris ve Android TTS
+- Kamera fotoğrafi / galeri secimi ve ML Kit OCR
+- SQLite kalici hafiza ve TSV soru-cevap ice aktarma
+- Wikipedia uzerinden ucretsiz bilgi arama ve kaydetme (*** konu / ### konu)
+- YouTube, Minecraft, Chrome ve Android Wi-Fi/Bluetooth ayarlarini acma
+- GitHub Actions APK derleme akisi
+
+5.0 YENILIKLERI
+- Turkce karakter ve noktalama normalizasyonu
+- Harf eksiltme, fazla harf, harf degistirme ve komsu harf yer degistirme icin yaklasik yazim eslestirme
+- Birden fazla dogal komut ifadesiyle niyet algilama
+- Kurulu baslatilabilir uygulamalari gorunen adlarina gore bulup acma (yaklasik yazim dahil)
+- Soru-cevap ve ogrenilmis bilgilerde yakin eslesme arama
+- Basit cevrimdisi espiri modu: *komik*, devam, espiri modu kapat
+- Surum 5.0 olarak etiketlendi
+
+ONEMLI SINIRLAR
+- Bu, API'siz ve ucretsiz bir komut/yardimci katmanidir; genel amacli ChatGPT seviyesinde bir yerel dil modeli ZIP'e dahil degildir.
+- Her yazim hatasini kesin anlamak garanti edilemez. Fuzzy matching sozluk, komut kaliplari ve mevcut bilgi havuzuyla sinirlidir.
+- Uygulama listesi Android paket gorunurlugu ve cihaz ureticisi sinirlariyla sinirlidir.
+- Android normal uygulamalara tam cihaz yonetimi veya guc kapatma yetkisi vermez.
+- 2 milyon gercek soru-cevap kaydi ZIP icinde yoktur; TSV ile buyuk veri ice aktarilabilir.
+- APK derlemesi GitHub Actions uzerinden yapilacak sekilde birakilmistir; bu ortamda Android SDK derlemesi yapilmamistir.
