@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.exeai.assistant'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.exeai.assistant'
+        minSdk 23
+        targetSdk 35
+        versionCode 50
+        versionName '5.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+}
